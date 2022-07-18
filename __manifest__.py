@@ -8,6 +8,8 @@
     """,
     'data': [
         "security/ir.model.access.csv",
+        "views/travel.xml",
+        "views/menu.xml"
     ],
     'demo': [
 

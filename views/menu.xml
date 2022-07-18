@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="menu_travel" name="Travel" sequence="0" />
+
+    <menuitem id="travel_records_menu" parent="menu_travel" name="Travel" action="action_travel" sequence="5" />
+
+</odoo>
