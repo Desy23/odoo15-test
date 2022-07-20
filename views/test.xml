@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="menu_customer_details_main_reports" name="Travel"  sequence="10" />
+    
+    <record id="action_customer_details_report" model="ir.actions.act_window">
+        <field name="name">Travel Form</field>
+        <field name="res_model">travel.travel</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Generate Travel Details
+            </p>
+        </field>
+    </record>
+    <menuitem id="menu_customer_details_report" name="Customer Details Report" parent="menu_customer_details_main_reports" action="action_customer_details_report" sequence="0" />
+</odoo>
