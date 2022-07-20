@@ -9,6 +9,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/test.xml',
+        'templates/travel_form.html',
     ],
     'demo': [
 
